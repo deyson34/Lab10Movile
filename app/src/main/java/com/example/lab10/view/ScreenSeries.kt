@@ -34,10 +34,6 @@ import com.example.lab10.data.SerieApiService
 import com.example.lab10.data.SerieModel
 import kotlinx.coroutines.delay
 
-
-class ScreenSeries {
-}
-
 @Composable
 fun ContenidoSeriesListado(navController: NavHostController, servicio: SerieApiService) {
     var listaSeries: SnapshotStateList<SerieModel> = remember { mutableStateListOf() }
